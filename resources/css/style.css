@@ -1,1 +1,31 @@
-* {background-color: rgb(245, 220, 243);}
+* {
+  color: white;
+}
+
+.fall-guys-body-ss3 {
+  background-image: url('./backgrounds/ss3.png');
+  background-position: top left;
+  background-repeat: repeat;
+}
+
+.fall-guys-button-ss3 {
+  background-color:rgb(0, 135, 90);
+  color: rgb(255, 220, 0);
+  font-family: fantasy;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 20px;
+  border: 5px outset rgb(255, 220, 0);
+  border-radius: 10px;
+  transition-duration: .3s;
+}
+
+.fall-guys-button-ss3:hover {
+  padding: 23px;
+  font-size: 1.2rem;
+}
+
+.button-container {
+  padding: 15px;
+}
